@@ -2,10 +2,13 @@
 ## example code
     // new instance
     RedisImpl<ItemModel> hoge = new RedisImpl<ItemModel>(ItemModel.class);
+    
     // cache key
     String key = "model";
+    
     // optional key(n)
     String genre = "food";
+    
     // cache value
     ItemModel value = new ItemModel();
     value.setItemCode("111111");
